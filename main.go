@@ -16,7 +16,7 @@ func main() {
 		case 2: exercise2()
 		case 3: exercise3()
 		case 4: exercise4()
-		case 5:
+		case 5: exercise5()
 		case 6:
 		case 7:
 		case 8:
