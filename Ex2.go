@@ -6,7 +6,6 @@ import (
 )
 
 func exercise2() {
-	const e = 2.71828
 	var a, x, b = 2.2, 0.5, 2
 	var Y, D float64
 

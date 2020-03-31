@@ -6,12 +6,11 @@ import (
 )
 
 func exercise1() {
-	const e = 2.71828
 	var x, y, a, b = 2.2, 0.5, 2, 3
 	var P, Q float64
 
 	P = math.Cbrt(2*x*math.Sqrt((1 + y)/math.Abs(math.Pow(math.Sin(x), 3))))
-	Q = math.Pow(e, (float64(-a)*x)) * math.Sqrt(x+1) + math.Pow(e, (float64(-b)*x)) + math.Sqrt(x+1.5)
+	Q = math.Pow(math.E, (float64(-a)*x)) * math.Sqrt(x+1) + math.Pow(math.E, (float64(-b)*x)) + math.Sqrt(x+1.5)
 
 	fmt.Printf("************************************\n")
 	fmt.Printf("*           CALC RESULTS           *\n")

@@ -7,15 +7,15 @@ func main() {
 
 	for selector != 0 {
 		fmt.Printf("# 0 - exit\n")
-		fmt.Printf("Select an exercise (1-15): ")
+		fmt.Printf("# Select an exercise (1-15): ")
 		fmt.Scanf("%d", &selector)
 
 		switch selector {
 		case 0:
 		case 1: exercise1()
 		case 2: exercise2()
-		case 3: 
-		case 4:
+		case 3: exercise3()
+		case 4: exercise4()
 		case 5:
 		case 6:
 		case 7:
